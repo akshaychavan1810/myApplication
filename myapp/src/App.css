@@ -1,0 +1,257 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+}
+
+body {
+  background: black;
+  background: linear-gradient(0deg, rgba(11110, 20, 200, 0.2) , rgba(2000, 0, 20ss00, 0) );
+;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.grid-margin,
+.purchace-popup > div {
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 0;
+  border-radius: 2px;
+}
+
+.card-weather {
+  background: #e1ecff;
+  background-image: linear-gradient(
+    to left bottom,
+    grey,
+    #dff0fa,
+    #e7f3fc,
+    #eff6fe,
+    #f6f9ff
+  );
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-weather .card-body:first-child {
+  background: url(https://i.pinimg.com/originals/e7/7a/60/e77a6068aa8bb2731e3b6d835c09c84c.gif)
+    no-repeat center;
+  background-size: cover;
+}
+
+.card .card-body {
+  padding: 1.88rem 1.81rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-weather .weather-date-location {
+  padding: 0 0 38px;
+}
+
+.h3,
+h3 {
+  font-size: 1.56rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+p {
+  font-size: 13px;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+.card-weather .weather-data {
+  padding: 0 0 4.75rem;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.display-3 {
+  font-size: 10 ch;
+  color: #f65229;
+}
+
+.card-weather .card-body {
+  background: #ffffff;
+}
+
+.card-weather .weakly-weather {
+  background: #ffffff;
+  overflow-x: auto;
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+  flex: 0 0 14.28%;
+  border-right: 1px solid #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+  font-size: 1.2rem;
+}
+.padding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  margin-bottom: 20px;
+  display: flex;
+}
+.inputs button {
+  min-width: 100px;
+  border-radius: 8px;
+  margin-left: 50px;
+  background-color: grey;
+  border-radius: 20px;
+}
+.inputs input {
+  min-width: 550px;
+  border-radius: 5px;
+  text-indent: 20px;
+  border: 2px solid black;
+  border-radius: 30ch;
+}
+.text-gray {
+  display: flex;
+  flex-direction: column;
+}
+.weather-data d-flex {
+  min-width: 100px;
+  text-align: center;
+  
+  
+}
+.temp {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  margin-left: 5ch;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 35px;
+  color: #f65229;
+}
+.details2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: crimson;
+}
+.switch {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.minTemp,
+.maxTemp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 15px;
+  align-items: self-end;
+  color: #f65229;
+  margin-left: 30ch;
+  font-style: bold;
+}
+.weather-data d-flex {
+  max-height: 200px;
+}
+.weather-date-location{
+  color: #f65229;
+  margin-left: 32ch;
+}
+.weather-date{
+  color: #f65229;
+}
+.weather-location{
+  color: #f65229;
+}
+#page-content{
+  background-image: linear-gradient(#03001e,#7303c0,#ec38bc,#fdeff9);
+
+}
